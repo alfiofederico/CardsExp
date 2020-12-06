@@ -25,7 +25,7 @@ body{
 
 
 .panel {
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
@@ -35,6 +35,7 @@ body{
   flex: 0.5;
   margin: 10px;
   position: relative;
+  -webkit-transition: all 700ms ease-in;
   transition: flex 0.7s ease-in;
 }
 
@@ -49,7 +50,7 @@ body{
 
 .panel.active {
   flex: 5;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 .panel.active h3 {
